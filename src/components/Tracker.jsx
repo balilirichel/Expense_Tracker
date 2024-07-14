@@ -110,11 +110,11 @@ const Tracker = () => {
 
       <TransactionDetails>
         <ExpenseBox isExpense>
-          Expence <span>${expense}</span>
+          Expence <span>₱{expense}</span>
         </ExpenseBox>
 
         <IncomeBox>
-          Income <span>${income}</span>
+          Income <span>₱{income}</span>
         </IncomeBox>
       </TransactionDetails>
 

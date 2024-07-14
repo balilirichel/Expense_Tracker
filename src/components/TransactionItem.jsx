@@ -17,7 +17,7 @@ const TransactionItem = ({ transaction }) => {
   return (
     <Item isExpense={transaction?.transType === "expense"}>
       <span>{transaction.details}</span>
-      <span>${transaction.amount}</span>
+      <span>₱{transaction.amount}</span>
     </Item>
   );
 };
